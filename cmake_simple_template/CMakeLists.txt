@@ -3,11 +3,11 @@ cmake_minimum_required(VERSION 3.12)
 project(cmake_simple_project) # 项目名称
 
 set(CMAKE_C_STANDARD 17)
-set(CMAKE_C_EXTENSIONS false)
+set(CMAKE_C_EXTENSIONS true)
 set(CMAKE_C_STANDARD_REQUIRED True)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_EXTENSIONS false)
+set(CMAKE_CXX_EXTENSIONS true)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(${PROJECT_NAME}

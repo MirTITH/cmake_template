@@ -5,8 +5,9 @@
 
 using namespace std;
 
-int main(int, char**)
+int main(int, char **)
 {
-    cout << "Hello, world!\n" << sin(M_PI / 6);
-	return 0;
+    cout << "Hello, world!\n"
+         << sin(M_PI / 6);
+    return 0;
 }
