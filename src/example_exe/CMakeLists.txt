@@ -17,6 +17,11 @@ target_sources(${PROJECT_NAME} PRIVATE
     src/main.cpp
 )
 
+# link the libraries to the target
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    # example_lib
+)
+
 # set the include directories
 target_include_directories(${PROJECT_NAME} PRIVATE
     src
